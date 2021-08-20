@@ -806,6 +806,51 @@ h1 {
         }
     /* Duong */
 
+        .footer-width{
+            width: 1080px;
+            height: 500px;
+        }
+        .footer-area{
+            color: white;
+            background-color:#df5e44;
+
+        }
+        .footer-colums{
+            padding-top: 50px;
+        }
+        .footer-link{
+            color: white;
+            font-weight: normal;
+        }
+        .footer-link:hover{
+            color: white;
+            text-decoration: none;
+        }
+        .copyright{
+            height: 50px;
+            justify-content: center;
+        }
+        .quytrinh{
+            height: 800px;
+        }
+        .col-sm-12{
+            text-align: center;
+        }
+        .text{
+            padding-top: 30px;
+            padding-left: 10px;
+        }
+        a1{
+            color: red;
+            font-weight: bold;
+        }      
+        .imginnews{
+            width:480px !important;
+            height:480px !important;
+        }
+        .breakline{
+            height: 350px;
+        }
 
 
 

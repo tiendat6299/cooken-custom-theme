@@ -213,7 +213,7 @@
                     <input type="radio" name="slider" id="item-2" style="opacity: 0;">
                     <input type="radio" name="slider" id="item-3" style="opacity: 0;">
                     <div class="cards" id="choice-vn" style="display: block;">
-                        <label class="cardss" for="item-1" id="song-1">
+                        <label class="cardss" for="ite-m1" id="song-1">
                             <p>
                                 Nhiệt <br> huyết
                             </p>
@@ -246,7 +246,140 @@
             </div>
         </div>
         <!-- DatMin End -->
-    </div>
-</div>
 
+        <!--Duong Begin-->
+
+        <div class="breakline"></div>
+
+        <div class="section" id="our_project">
+            <div class="title_partner">
+                    <h2>Đối Tác</h2>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="img-doitac"><img src="http://localhost/Cooken/wp-content/uploads/2021/08/Doitac1.png"></div>
+                    <div class="img-doitac"><img src="http://localhost/Cooken/wp-content/uploads/2021/08/Doitac2.png"></div>
+                </div>
+                <div class="item">
+                    <div class="img-doitac"><img src="http://localhost/Cooken/wp-content/uploads/2021/08/Doitac3.png"></div>
+                    <div class="img-doitac"><img src="http://localhost/Cooken/wp-content/uploads/2021/08/Doitac4.png"></div>
+                </div>
+                <div class="item">
+                    <div class="img-doitac"><img src="http://localhost/Cooken/wp-content/uploads/2021/08/Doitac5.png"></div>
+                    <div class="img-doitac"><img src="http://localhost/Cooken/wp-content/uploads/2021/08/Doitac6.png"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container quytrinh">
+            <div class="row section-content">
+                <div class="col-sm-12 text-quytrinh">
+                    <h3>Quy Trình Hợp Tác</h3>
+                </div>
+                <br>
+                <div class="col-sm-12 img-quy-trinh" id="image_1977868760">
+                    <div class="img-inner">
+                        <img width="1020" height="355" src="http://localhost/Cooken/wp-content/uploads/2021/08/imgquytrinh.png" class="attachment-large size-large" alt="quy trinh">
+                    </div>
+                                            
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tintuc">
+            <div class="text title-tin-tuc-homepage col-sm-12">
+                <h3 style="text-align: center;"><a3 href="https://cookentrading.com.vn/tin-tuc/">Tin Tức</a3></h3>
+            </div>
+            <br>
+            <div class="row news-row1">
+                <div id="col-1" class="col-sm-3 text-news">
+                    <div class="col-inner">
+                        <div class="img">
+                            <div class="img-inner">
+                                <img class="imginnews" src="http://localhost/Cooken/wp-content/uploads/2021/08/img1.png">
+                            </div>                    
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm-3">
+                    <div class="col-inner">
+                        <div class="text textbox-1-news-homepage">
+                            <h4 style="font-size: 28px; line-height: 36px; color: #000000;">3 món ăn độc đáo sử dụng đùi heo Iberico</h4>
+                            <p>Bạn đã quá nhàm chán những bữa tiệc với những món ăn truyền thống? Thử ngay những món ăn tiệc mang phong cách Châu Âu này nhé.</p>
+                            <a1 href="https:///cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/">ĐỌC TIẾP</a1>
+                            <a style="margin-left: 50px;" href="https:///cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/"><img style="width: 50px" src="http://localhost/Cooken/wp-content/uploads/2021/08/img-arrow.png"></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 text-news">
+                    <div class="col-inner">
+                        <div class="img">
+                            <div class="img-inner">
+                                <img class="imginnews" src="http://localhost/Cooken/wp-content/uploads/2021/08/img2.png">                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm-3">
+                    <div class="col-inner">
+                        <div class="text textbox-1-news-homepage">
+                            <h4 style="font-size: 28px; line-height: 36px; color: #000000;">Top 5 sản phẩm chăm sóc sức khoẻ năm 2020</h4>
+                            <p>Với diễn biến phức tạp của đại dịch COVID-19, sức khoẻ và sức đề kháng của cơ thể là yếu tố không thể lơ là.Hãy cùng COOKEN cải thiện sức khoẻ của bạn với top 5 sản phẩm chăm sóc sức khoẻ tốt nhất thời điểm hiện tại.</p>
+                            <a1 href="https://cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/">ĐỌC TIẾP</a1>
+                            <a style="margin-left: 50px;" href="https:///cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/"><img style="width: 50px" src="http://localhost/Cooken/wp-content/uploads/2021/08/img-arrow.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row news-row2">
+                <div class="col-sm-3">
+                    <div class="col-inner">
+                        <div class="text textbox-1-news-homepage">
+                            <h4 style="font-size: 28px; line-height: 36px; color: #000000;">6 cách phân biệt thực phẩm chức năng chính hãng</h4>
+                            <p>Sử dụng những sản phẩm thực phẩm chức năng không rõ nguồn gốc có thể gây ra những hậu quả nghiêm trọng đến sức khoẻ của bạn. Hãy sử dụng 6 cách kiểm tra trong bài viết này trước khi quyết định mua hàng nhé.</p>
+                            <a1 href="https://cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/">ĐỌC TIẾP</a1>
+                            <a style="margin-left: 50px" href="https://cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/"><img style="width: 50px" src="http://localhost/Cooken/wp-content/uploads/2021/08/img-arrow.png"></a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm-3">
+                    <div class="col-inner">
+                        <div class="img">
+                            <div class="img-inner">
+                                <img class="imginnews" src="http://localhost/Cooken/wp-content/uploads/2021/08/img3.png">                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm-3">
+                    <div class="col-inner">
+                        <div class="text textbox-1-news-homepage">
+                            <h4 style="font-size: 28px; line-height: 36px; color: #000000;">Top 5 sản phẩm chăm sóc sức khoẻ năm 2020</h4>
+                            <p>Cùng COOKEN khám phá liệu trình chăm sóc da để sở hữu làn da trắng sáng căng mọng như diễn viên Hàn Quốc.</p>
+                            <a1 href="https://cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/">ĐỌC TIẾP</a1>
+                            <a style="margin-left: 50px;" href="https:///cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/"><img style="width: 50px" src="http://localhost/Cooken/wp-content/uploads/2021/08/img-arrow.png"></a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm-3">
+                    <div class="col-inner">
+                        <div class="img">
+                            <div class="img-inner">
+                                <img class="imginnews" src="http://localhost/Cooken/wp-content/uploads/2021/08/img4.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<br>
 <?php get_footer() ?>
