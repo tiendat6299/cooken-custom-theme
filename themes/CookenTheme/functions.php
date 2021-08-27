@@ -23,6 +23,13 @@ function cooken_carousel() {
 }
 add_action('wp_enqueue_scripts', 'cooken_carousel');
 
+function cooken_menumobile() {
+    wp_enqueue_script( 'moblie-menu', get_template_directory_uri() . '/menuMobile/menu-mobile.js',  array ( 'jquery' ) , true);
+    wp_enqueue_style( 'boxicon', 'https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' );
+}
+
+add_action('wp_enqueue_scripts', 'cooken_menumobile');
+
 
 /* Create menu */
 

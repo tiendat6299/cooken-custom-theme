@@ -6,7 +6,7 @@
 ?>
 
 <div class="main">
-    <div class="container">     
+    <div class="container" role="main">     
         <div class="section" id="banner">
             <div class="section_banner_parent">
                 <div class="section_banner">
