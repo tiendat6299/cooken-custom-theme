@@ -1264,14 +1264,24 @@ h1 {
         }
     /* Duong */
 
+        /* Footer */
+        .logo-footer{
+            max-width: 292px;
+            height: auto;
+        }
         .footer-width{
-            width: 1080px;
-            height: 500px;
+            width: 56.25%;
+            height: auto;
+        }
+        @media screen and (max-width: 1280px){
+            .footer-width{
+            width: 70%;
+            height: auto;
+            }
         }
         .footer-area{
             color: white;
             background-color:#df5e44;
-
         }
         .footer-colums{
             padding-top: 50px;
@@ -1288,10 +1298,18 @@ h1 {
             height: 50px;
             justify-content: center;
         }
-        .quytrinh{
-            height: 800px;
+        /* Partner */
+        @media screen and (max-width: 1280px){
+            .doitac-section{
+                width: 80%;
+            }
         }
-        .col-sm-12{
+
+        /* Quy trinh  */
+        .quytrinh{
+            height: auto;
+        }
+        .text-quytrinh, .img-quy-trinh{
             text-align: center;
         }
         .text{
@@ -1303,12 +1321,59 @@ h1 {
             font-weight: bold;
         }      
         .imginnews{
+            position: absolute;
+        }
+        .col-lg-3{
             width:480px !important;
             height:480px !important;
         }
         .breakline{
             height: 350px;
         }
+
+        /*Thuong mai*/
+        .img_banner_trading{
+            width: 70%;
+            display: block;
+            float: right;
+        }
+        .banner_trading{
+            max-width: 80%;
+        }
+        .thuongmai_para{
+            margin: 0px auto;
+            width: 100%;
+            height: auto;
+            font-family: HJ Gotham Light;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 37px;
+            display: flex;
+            align-items: center;
+            color: #010101;        
+        }
+        .thuongmai_title_section h3{
+            font-weight: 400;
+            padding-left: 0.9vw;
+            margin-left: 2.09vw;
+            align-items: center;
+            color: #010101;
+            border-left: 7px solid #DA370E;          
+        }
+        .thuongmai-p{
+            width: 50%;
+            margin: 0px auto;
+        }
+        @media screen and (max-width: 720px){
+            .thuongmai-p{
+            width: 80%;
+            margin: 0px auto;
+            }
+        }
+
+
+
 
 
 

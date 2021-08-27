@@ -256,7 +256,7 @@
 
         <div class="breakline"></div>
 
-        <div class="section" id="our_project">
+        <div class="section doitac-section" id="our_project">
             <div class="title_partner">
                     <h2>Đối Tác</h2>
             </div>
@@ -299,7 +299,7 @@
             </div>
             <br>
             <div class="row news-row1">
-                <div id="col-1" class="col-sm-3 text-news">
+                <div id="col-img-1-1" class="col-lg-3 col-md-6 col-sm12">
                     <div class="col-inner">
                         <div class="img">
                             <div class="img-inner">
@@ -309,10 +309,10 @@
                     </div>
                 </div>
             
-                <div class="col-sm-3">
+                <div id="col-text-1-2" class="col-lg-3 col-md-6 col-sm12">
                     <div class="col-inner">
                         <div class="text textbox-1-news-homepage">
-                            <h4 style="font-size: 28px; line-height: 36px; color: #000000;">3 món ăn độc đáo sử dụng đùi heo Iberico</h4>
+                            <h4>3 món ăn độc đáo sử dụng đùi heo Iberico</h4>
                             <p>Bạn đã quá nhàm chán những bữa tiệc với những món ăn truyền thống? Thử ngay những món ăn tiệc mang phong cách Châu Âu này nhé.</p>
                             <a1 href="https:///cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/">ĐỌC TIẾP</a1>
                             <a style="margin-left: 50px;" href="https:///cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/"><img style="width: 50px" src="http://localhost/Cooken/wp-content/uploads/2021/08/img-arrow.png"></a>
@@ -320,7 +320,7 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-3 text-news">
+                <div id="col-img-1-3" class="col-lg-3 col-md-6 col-sm12">
                     <div class="col-inner">
                         <div class="img">
                             <div class="img-inner">
@@ -330,10 +330,10 @@
                     </div>
                 </div>
             
-                <div class="col-sm-3">
+                <div id="col-text-1-4" class="col-lg-3 col-md-6 col-sm12">
                     <div class="col-inner">
                         <div class="text textbox-1-news-homepage">
-                            <h4 style="font-size: 28px; line-height: 36px; color: #000000;">Top 5 sản phẩm chăm sóc sức khoẻ năm 2020</h4>
+                            <h4>Top 5 sản phẩm chăm sóc sức khoẻ năm 2020</h4>
                             <p>Với diễn biến phức tạp của đại dịch COVID-19, sức khoẻ và sức đề kháng của cơ thể là yếu tố không thể lơ là.Hãy cùng COOKEN cải thiện sức khoẻ của bạn với top 5 sản phẩm chăm sóc sức khoẻ tốt nhất thời điểm hiện tại.</p>
                             <a1 href="https://cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/">ĐỌC TIẾP</a1>
                             <a style="margin-left: 50px;" href="https:///cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/"><img style="width: 50px" src="http://localhost/Cooken/wp-content/uploads/2021/08/img-arrow.png"></a>
@@ -343,10 +343,10 @@
             </div>
             
             <div class="row news-row2">
-                <div class="col-sm-3">
+                <div id="col-text-2-1" class="col-lg-3 col-md-6 col-sm12">
                     <div class="col-inner">
                         <div class="text textbox-1-news-homepage">
-                            <h4 style="font-size: 28px; line-height: 36px; color: #000000;">6 cách phân biệt thực phẩm chức năng chính hãng</h4>
+                            <h4>6 cách phân biệt thực phẩm chức năng chính hãng</h4>
                             <p>Sử dụng những sản phẩm thực phẩm chức năng không rõ nguồn gốc có thể gây ra những hậu quả nghiêm trọng đến sức khoẻ của bạn. Hãy sử dụng 6 cách kiểm tra trong bài viết này trước khi quyết định mua hàng nhé.</p>
                             <a1 href="https://cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/">ĐỌC TIẾP</a1>
                             <a style="margin-left: 50px" href="https://cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/"><img style="width: 50px" src="http://localhost/Cooken/wp-content/uploads/2021/08/img-arrow.png"></a>
@@ -354,7 +354,7 @@
                     </div>
                 </div>
             
-                <div class="col-sm-3">
+                <div id="col-img-2-2" class="col-lg-3 col-md-6 col-sm12">
                     <div class="col-inner">
                         <div class="img">
                             <div class="img-inner">
@@ -364,10 +364,10 @@
                     </div>
                 </div>
             
-                <div class="col-sm-3">
+                <div id="col-text-2-3" class="col-lg-3 col-md-6 col-sm12">
                     <div class="col-inner">
                         <div class="text textbox-1-news-homepage">
-                            <h4 style="font-size: 28px; line-height: 36px; color: #000000;">Top 5 sản phẩm chăm sóc sức khoẻ năm 2020</h4>
+                            <h4>Top 5 sản phẩm chăm sóc sức khoẻ năm 2020</h4>
                             <p>Cùng COOKEN khám phá liệu trình chăm sóc da để sở hữu làn da trắng sáng căng mọng như diễn viên Hàn Quốc.</p>
                             <a1 href="https://cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/">ĐỌC TIẾP</a1>
                             <a style="margin-left: 50px;" href="https:///cookentrading.com.vn/2021/06/24/3-cach-thuong-thuc-thit-heo-muoi-iberico/"><img style="width: 50px" src="http://localhost/Cooken/wp-content/uploads/2021/08/img-arrow.png"></a>
@@ -375,7 +375,7 @@
                     </div>
                 </div>
             
-                <div class="col-sm-3">
+                <div id="col-img-2-4" class="col-lg-3 col-md-6 col-sm12">
                     <div class="col-inner">
                         <div class="img">
                             <div class="img-inner">
@@ -386,5 +386,5 @@
                 </div>
             </div>
         </div>
-<br>
+        <br>
 <?php get_footer() ?>
