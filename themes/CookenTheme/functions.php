@@ -10,6 +10,7 @@ function cooken_files() {
   
 }
 
+/* menumobile */
 
 add_action('wp_enqueue_scripts', 'cooken_files');
 function cooken_menumobile() {

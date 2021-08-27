@@ -81,7 +81,7 @@
             <i class='bx bxs-chevron-down js-arrow arrow '></i>
             <ul class="js-sub-menu sub-menu">
               <li><a href="#">Nhập khẩu</a></li>
-              <li><a href="#">Xuất khẩu</a></li>
+              <li><a href="<?php echo site_url('/xuat-khau') ?>">Xuất khẩu</a></li>
               <li><a href="#">Thương mại</a></li>
               <li><a href="#">Sản phẩm</a></li>
             </ul>
