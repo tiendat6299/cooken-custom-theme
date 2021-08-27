@@ -137,71 +137,76 @@
                             <img src="http://localhost/Cooken/wp-content/uploads/2021/08/Rectangle-102.png" alt="">
                         </div>
                     </div>
-                    <div class="mt-5 text-center">
+                    <div class = "mt-5 d-none d-md-none d-xl-block"></div>
+                    <div class=" cardContainer">
                         <!-- aaa -->
-                        <div class="card1" width="323">
-                            <div class="card text-grey shadow">
-                                <div class="card-content">
-                                    <img class="card-img-top" src="http://localhost/Cooken/wp-content/uploads/2021/08/Ellipse-13-2.png" alt="">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center">Doan Lam Son</h4>
-                                        <p class="card-text text-center">Finance Manager</p>
-                                        <div class="icon text-center">
-                                            <a class="btn btn-primary" href="#"><i
-                                                    class="fa fa-facebook fa-lg"></i></a>
-                                            <a class="btn btn-danger" href="#"><i
-                                                    class="fa fa-instagram fa-lg"></i></a>
+                        <div class="swiper-container" id="ahihi">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="myCard text-grey shadow">
+                                        <div class="card-content">
+                                            <img class="card-img-top" src="http://localhost/Cooken/wp-content/uploads/2021/08/Ellipse-13-2.png" alt="">
+                                            <div class="card-body">
+                                                <h4 class="card-title text-center">Doan Lam Son</h4>
+                                                <p class="card-text text-center">Finance Manager</p>
+                                                <div class="icon text-center">
+                                                    <a class="btn btn-primary" href="#"><i
+                                                            class="fa fa-facebook fa-lg"></i></a>
+                                                    <a class="btn btn-danger" href="#"><i
+                                                            class="fa fa-instagram fa-lg"></i></a>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="myCard text-grey shadow">
+                                        <div class="card-content">
+                                            <img class="card-img-top" src="http://localhost/Cooken/wp-content/uploads/2021/08/Ellipse-13.png" alt="">
+                                            <div class="card-body">
+                                                <h4 class="card-title text-center">Dang Minh Ngoc</h4>
+                                                <p class="card-text text-center">Marketer</p>
+                                                <div class="icon text-center">
+                                                    <a class="btn btn-primary" href="#"><i
+                                                            class="fa fa-facebook fa-lg"></i></a>
+                                                    <a class="btn btn-danger" href="#"><i
+                                                            class="fa fa-instagram fa-lg"></i></a>
+                                                </div>
+                                            </div>
 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="myCard text-grey shadow">
+                                        <div class="card-content">
+                                            <img class="card-img-top" src="http://localhost/Cooken/wp-content/uploads/2021/08/Ellipse-13-1.png" alt="">
+                                            <div class="card-body">
+                                                <h4 class="card-title text-center">Le Tram</h4>
+                                                <p class="card-text text-center">C.E.O</p>
+                                                <div class="icon text-center">
+                                                    <a class="btn btn-primary" href="#"><i
+                                                            class="fa fa-facebook fa-lg"></i></a>
+                                                    <a class="btn btn-danger" href="#"><i
+                                                            class="fa fa-instagram fa-lg"></i></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card1">
-                            <div class="card text-grey shadow">
-                                <div class="card-content">
-                                    <img class="card-img-top" src="http://localhost/Cooken/wp-content/uploads/2021/08/Ellipse-13.png" alt="">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center">Dang Minh Ngoc</h4>
-                                        <p class="card-text text-center">Marketer</p>
-                                        <div class="icon text-center">
-                                            <a class="btn btn-primary" href="#"><i
-                                                    class="fa fa-facebook fa-lg"></i></a>
-                                            <a class="btn btn-danger" href="#"><i
-                                                    class="fa fa-instagram fa-lg"></i></a>
-                                        </div>
-                                    </div>
 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card1">
-                            <div class="card text-grey shadow">
-                                <div class="card-content">
-                                    <img class="card-img-top" src="http://localhost/Cooken/wp-content/uploads/2021/08/Ellipse-13-1.png" alt="">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-center">Le Tram</h4>
-                                        <p class="card-text text-center">C.E.O</p>
-                                        <div class="icon text-center">
-                                            <a class="btn btn-primary" href="#"><i
-                                                    class="fa fa-facebook fa-lg"></i></a>
-                                            <a class="btn btn-danger" href="#"><i
-                                                    class="fa fa-instagram fa-lg"></i></a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
                         <!-- bbb -->
                     </div>
-
                 </div>
             </div>
 
         
 
-        <div class="position-relative" >
+        <div class="position-relative d-none d-md-none d-xl-block" >
                 <div class="bgr"></div>
                 <div class="choice">
 

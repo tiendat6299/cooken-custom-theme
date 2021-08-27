@@ -679,10 +679,22 @@ h1 {
             border-radius: 100%;
         }
         
-        .card1 {
-            display: inline-block;
-            width: 323px;
-            margin: 0 12px;
+        .cardContainer {
+            max-width: 1280px;
+            margin: 0 auto;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .myCard {
+            background: white;
+            padding: 20px 0;
+        }
+        
+        .card-img-top {
+            justify-content: center;
+            align-items: center;
+            width: auto !important;
         }
         
         .bgr {
@@ -696,8 +708,10 @@ h1 {
             background-size: cover !important;
             background-repeat: no-repeat !important;
             background-position: 50% 50%;
+            animation: faded .5s ease-in both;
         
         }
+        
         
         #item-1:checked~.cards #song-2,
         #item-2:checked~.cards #song-3,
@@ -786,7 +800,7 @@ h1 {
         
         .choice__us-action {
             cursor: pointer;
-            fill: #fff;
+            fill: wheat;
         }
         
         .choice__us-action #choice-next,
@@ -797,12 +811,59 @@ h1 {
         .title-lcctv {
             font-size: 38px;
             color: #fefefe !important;
-            /* font-family: Arial, Helvetica, sans-serif; */
+            font-family: Arial, Helvetica, sans-serif;
             line-height: 80px;
             text-align: center;
             margin-top: -185px;
             margin-bottom: 45px;
             color: #180909;
+        }
+        
+        .slick-wrapper {
+            width: 80%;
+            background-color: aqua;
+        }
+        
+        .slide-item {
+            background-color: rebeccapurple;
+            color: aqua;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 200px;
+            border: 1px solid white;
+        }
+        
+        .slide-item h3 {
+            font-family: Lato, sans-serif;
+            font-size: 40px;
+        }
+        
+        .animation {
+            animation: fadeIn .7s ease-in both;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0.3;
+                transform: translate3d(0, 10%, 0);
+            }
+        
+            to {
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+            }
+        }
+        
+        @keyframes faded {
+            from {
+                opacity: 0;
+            }
+        
+            to {
+                opacity: 1;
+            }
         }
     /* Duong */
 

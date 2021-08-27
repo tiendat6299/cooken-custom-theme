@@ -23,6 +23,15 @@ function cooken_carousel() {
 }
 add_action('wp_enqueue_scripts', 'cooken_carousel');
 
+/* swiper-bundle */
+
+function cooken_swiper_bundle() {
+    wp_enqueue_style( 'swiper_bundle-1', '//unpkg.com/swiper@7/swiper-bundle.min.css',false,'1.1','all');
+    wp_enqueue_script( 'swiper_bundle-3', '//unpkg.com/swiper@7/swiper-bundle.min.js', array ( 'jquery' ), 1.1, true);
+    wp_enqueue_script( 'swiper_bundle-4', get_template_directory_uri() . '/jquery.min.js', array ( 'jquery' ), 1.1, true);
+    wp_enqueue_script( 'swiper_bundle_js_custom', get_template_directory_uri() . '/swiper/swiper.js', array ( 'jquery' ), true);
+}
+add_action('wp_enqueue_scripts', 'cooken_swiper_bundle');
 
 /* Create menu */
 
