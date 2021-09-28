@@ -10,6 +10,30 @@ function cooken_files() {
   
 }
 
+
+
+/* sidebar */
+
+
+if ( function_exists('register_sidebar') )
+  register_sidebar(array(
+    'name' => 'Shop Sidebar',
+    'id' => 'shop-sidebar',
+    'before_widget' => '<div class = "%2$s">',
+    'after_widget' => '</div>',
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
+  )
+);
+
+/* widget classic */
+
+function example_theme_support() {
+    remove_theme_support( 'widgets-block-editor' );
+    }
+    add_action( 'after_setup_theme', 'example_theme_support' );
+
+
 /* menumobile */
 
 add_action('wp_enqueue_scripts', 'cooken_files');
@@ -81,3 +105,190 @@ function theme_prefix_the_custom_logo() {
 	}
 
 }
+
+/* add custom shop */
+
+add_filter( 'woocommerce_default_catalog_orderby_options', 'custom_woocommerce_catalog_orderby' );
+add_filter('woocommerce_catalog_orderby', 'custom_woocommerce_catalog_orderby');
+
+
+
+// Tùy chỉnh các tùy chọn sắp xếp sản phẩm WooCommerce
+// Tùy chọn có sẵn là: menu_order, xếp hạng, ngày, mức độ phổ biến, giá, giá-desc
+function custom_woocommerce_product_sorting( $orderby ) {
+    // The following removes the rating, date, and the popularity sorting options;
+    // feel free to customize and enable/disable the options as needed. 
+    unset($orderby["rating"]);
+    unset($orderby["date"]);
+    unset($orderby["popularity"]);
+    return $orderby;
+  }
+  add_filter( "woocommerce_catalog_orderby", "custom_woocommerce_product_sorting", 20 );
+
+ 
+
+  // After setup theme hook adds WC support
+  function Cooken_add_woocommerce_support() {
+      add_theme_support( 'woocommerce', array(
+          'thumbnail_image_width' => 255,
+          'single_image_width' => 255,
+          'product_grid'          => array(
+            'default_rows'    => 3,
+            'min_rows'        => 2,
+            'max_rows'        => 8,
+            'default_columns' => 4,
+            'min_columns'     => 2,
+            'max_columns'     => 5,
+        ),
+
+      ) ); 
+      add_theme_support( 'wc-product-gallery-zoom' );
+      add_theme_support( 'wc-product-gallery-lightbox' );
+      add_theme_support( 'wc-product-gallery-slider' );
+  }
+  add_action( 'after_setup_theme', 'Cooken_add_woocommerce_support' );
+
+  add_filter( 'woocommerce_get_catalog_ordering_args', 'custom_woocommerce_get_catalog_ordering_args' );
+
+function custom_woocommerce_get_catalog_ordering_args( $args ) {
+$orderby_value = isset( $_GET['orderby'] ) ? woocommerce_clean( $_GET['orderby'] ) : apply_filters( 'woocommerce_default_catalog_orderby', get_option( 'woocommerce_default_catalog_orderby' ) );
+
+if ( 'alphabetical' == $orderby_value || 'menu_order' == $orderby_value ) {
+$args['orderby'] = 'title';
+$args['order'] = 'ASC';
+}
+
+return $args;
+}
+
+add_filter( 'woocommerce_default_catalog_orderby_options', 'custom_woocommerce_catalog_orderby' );
+add_filter( 'woocommerce_catalog_orderby', 'custom_woocommerce_catalog_orderby' );
+
+function custom_woocommerce_catalog_orderby( $sortby ) {
+$sortby['alphabetical'] = __( 'Alfabetisk' );
+return $sortby;
+}
+
+add_filter( 'get_the_archive_title', function ($title) {    
+    if ( is_category() ) {    
+            $title = single_cat_title( '', false );    
+        } elseif ( is_tag() ) {    
+            $title = single_tag_title( '', false );    
+        } elseif ( is_author() ) {    
+            $title = '<span class="vcard">' . get_the_author() . '</span>' ;    
+        } elseif ( is_tax() ) { //for custom post types
+            $title = sprintf( __( '%1$s' ), single_term_title( '', false ) );
+        } elseif (is_post_type_archive()) {
+            $title = post_type_archive_title( '', false );
+        }
+    return $title;    
+});
+
+/* end custom shop */
+
+/* add shortcode widget */
+add_filter('widget_text', 'do_shortcode');
+
+function gal_hover_shortcode( $atts, $content = null ) {
+ 
+    extract( shortcode_atts( array(
+      'size' => ''
+      ), $atts ) );
+  
+    $image_size = 'medium';
+    if($size =! '') { $image_size = $size; }
+  
+    $images = get_children(array(
+        'post_parent' => get_the_ID(),
+        'post_type' => 'attachment',
+        'numberposts' => 1,
+        'post_mime_type' => 'image',
+        'orderby' => 'menu_order',
+        //'exclude' => get_post_thumbnail_id()
+        )
+    );
+  
+    if($images) {
+        $gallery = '';
+        foreach( $images as $image ) {
+                    $gallery .= wp_get_attachment_image($image->ID, $image_size);
+        }
+        $gallery .= '';
+  
+        return $gallery;
+    }
+  
+}
+add_shortcode('product_hover_img', 'gal_hover_shortcode');
+
+/* delete tabs reviews */
+add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
+ 
+function woo_remove_product_tabs( $tabs ) {
+ 
+    
+    unset( $tabs['reviews'] ); 			// Xóa tab review
+    
+ 
+    return $tabs;
+}
+
+/* bỏ tabs */
+
+if ( ! function_exists( 'woocommerce_output_product_data_tabs' ) ) {
+    function woocommerce_output_product_data_tabs() {
+       wc_get_template( 'single-product/tabs/tabs.php' );
+    }
+ }
+ function woocommerce_output_product_data_tabs() {
+    $product_tabs = apply_filters( 'woocommerce_product_tabs', array() );
+    if ( empty( $product_tabs ) ) return;
+    echo '<div class="woocommerce-tabs wc-tabs-wrapper">';
+    foreach ( $product_tabs as $key => $product_tab ) {
+       ?>
+          <div id="tab-<?php echo esc_attr( $key ); ?>">
+             <?php
+             if ( isset( $product_tab['callback'] ) ) {
+                call_user_func( $product_tab['callback'], $key, $product_tab );
+             }
+             ?>
+          </div>
+       <?php         
+    }
+    echo '</div>';
+ }
+
+
+ add_filter( 'woocommerce_product_tabs', 'woo_custom_description_tab', 98 );
+function woo_custom_description_tab( $tabs ) {
+
+    $tabs['description']['callback'] = 'woo_custom_description_tab_content';	// Custom description callback
+
+    return $tabs;
+}
+
+function woo_custom_description_tab_content() {
+    echo '<div class="row description">';
+    echo '<div class="col-lg-9">'; ?>
+    <?php the_content() ;?>
+    <?php echo '</div>';
+    echo '<div class="col-lg-3">'; ?>
+    	<?php
+		/**
+		 * woocommerce_sidebar hook.
+		 *
+		 * @hooked woocommerce_get_sidebar - 10
+		 */
+		do_action( 'woocommerce_sidebar' );
+	?>
+    <?php echo '</div>';
+    echo '</div>';
+     
+}
+
+
+  
+
+
+
+ 

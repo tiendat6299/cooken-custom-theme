@@ -9,7 +9,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<nav>
+<nav class="navbar">
   <!-- <div class="navbar">
     <i class='bx bx-menu'></i>
     <div class="logo">
@@ -82,8 +82,8 @@
             <ul class="js-sub-menu sub-menu">
               <li><a href="<?php echo site_url('/nhap-khau') ?>">Nhập khẩu</a></li>
               <li><a href="<?php echo site_url('/xuat-khau') ?>">Xuất khẩu</a></li>
-              <li><a href="#">Thương mại</a></li>
-              <li><a href="#">Sản phẩm</a></li>
+              <li><a href="<?php echo site_url('/thuong-mai') ?>">Thương mại</a></li>
+              <li><a href="<?php echo site_url('/san-pham') ?>">Sản phẩm</a></li>
             </ul>
           </li>
           <li><a href="#">Đối tác</a></li>
