@@ -1,0 +1,164 @@
+2021-10-08T09:10:45+00:00 CRITICAL syntax error, unexpected identifier "Skylight" in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\functions.php on line 306
+
+2021-10-08T09:11:11+00:00 CRITICAL syntax error, unexpected identifier "Skylight" in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\functions.php on line 306
+
+2021-10-08T09:11:13+00:00 CRITICAL syntax error, unexpected identifier "Skylight" in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\functions.php on line 306
+
+2021-10-08T10:34:25+00:00 CRITICAL syntax error, unexpected token "return" in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\functions.php on line 315
+
+2021-10-08T10:39:24+00:00 CRITICAL Uncaught Error: Call to a member function needs_payment() on null in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-billing.php:47
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(294): wc_get_template('checkout/form-b...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): WC_Checkout->checkout_form_billing('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-checkout.php(42): do_action('woocommerce_che...')
+#6 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#8 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#9 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#10 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#11 C:\xampp\htdocs\Cooken\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#12 [internal function]: do_shortcode_tag(Array)
+#13 C:\xampp\htdocs\Cooken\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#14 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_ch...')
+#15 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#16 C:\xampp\htdocs\Cooken\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#17 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\page.php(25): the_content()
+#18 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-billing.php on line 47
+
+2021-10-08T10:45:12+00:00 CRITICAL Uncaught Error: Call to a member function needs_payment() on null in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-billing.php:47
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(294): wc_get_template('checkout/form-b...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): WC_Checkout->checkout_form_billing('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-checkout.php(42): do_action('woocommerce_che...')
+#6 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#8 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#9 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#10 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#11 C:\xampp\htdocs\Cooken\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#12 [internal function]: do_shortcode_tag(Array)
+#13 C:\xampp\htdocs\Cooken\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#14 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_ch...')
+#15 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#16 C:\xampp\htdocs\Cooken\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#17 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\page.php(25): the_content()
+#18 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-billing.php on line 47
+
+2021-10-08T10:46:13+00:00 CRITICAL Uncaught Error: Call to a member function get_order_item_totals() on null in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-billing.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(294): wc_get_template('checkout/form-b...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): WC_Checkout->checkout_form_billing('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-checkout.php(42): do_action('woocommerce_che...')
+#6 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#8 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#9 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#10 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#11 C:\xampp\htdocs\Cooken\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#12 [internal function]: do_shortcode_tag(Array)
+#13 C:\xampp\htdocs\Cooken\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#14 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_ch...')
+#15 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#16 C:\xampp\htdocs\Cooken\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#17 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\page.php(25): the_content()
+#18 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-billing.php on line 20
+
+2021-10-08T10:46:54+00:00 CRITICAL Uncaught Error: Call to a member function get_order_item_totals() on null in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-billing.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(294): wc_get_template('checkout/form-b...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): WC_Checkout->checkout_form_billing('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-checkout.php(42): do_action('woocommerce_che...')
+#6 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#8 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#9 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#10 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#11 C:\xampp\htdocs\Cooken\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#12 [internal function]: do_shortcode_tag(Array)
+#13 C:\xampp\htdocs\Cooken\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#14 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_ch...')
+#15 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#16 C:\xampp\htdocs\Cooken\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#17 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\page.php(25): the_content()
+#18 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-billing.php on line 20
+
+2021-10-08T10:47:09+00:00 CRITICAL Uncaught Error: Call to a member function get_order_item_totals() on null in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-billing.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(294): wc_get_template('checkout/form-b...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): WC_Checkout->checkout_form_billing('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-checkout.php(42): do_action('woocommerce_che...')
+#6 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#8 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#9 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#10 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#11 C:\xampp\htdocs\Cooken\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#12 [internal function]: do_shortcode_tag(Array)
+#13 C:\xampp\htdocs\Cooken\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#14 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_ch...')
+#15 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#16 C:\xampp\htdocs\Cooken\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#17 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\page.php(25): the_content()
+#18 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-billing.php on line 20
+
+2021-10-08T10:47:49+00:00 CRITICAL Uncaught Error: Call to a member function get_order_item_totals() on null in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-billing.php:21
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(294): wc_get_template('checkout/form-b...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): WC_Checkout->checkout_form_billing('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-checkout.php(42): do_action('woocommerce_che...')
+#6 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#8 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#9 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#10 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#11 C:\xampp\htdocs\Cooken\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#12 [internal function]: do_shortcode_tag(Array)
+#13 C:\xampp\htdocs\Cooken\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#14 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_ch...')
+#15 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#16 C:\xampp\htdocs\Cooken\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#17 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\page.php(25): the_content()
+#18 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\checkout\form-billing.php on line 21
+

@@ -1,0 +1,256 @@
+2021-09-27T16:04:48+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php:33
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 33
+
+2021-09-27T16:07:59+00:00 CRITICAL Uncaught Error: Call to undefined function woo_image() in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php:32
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 32
+
+2021-09-27T16:10:31+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\sale-flash.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1656): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_show_product_sale_flash('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php(32): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\sale-flash.php on line 25
+
+2021-09-27T16:11:54+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\sale-flash.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1656): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_show_product_sale_flash('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php(32): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\sale-flash.php on line 25
+
+2021-09-27T16:16:27+00:00 CRITICAL Uncaught Error: Call to undefined function woo_image() in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php:32
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 32
+
+2021-09-27T16:20:35+00:00 CRITICAL Uncaught Error: Undefined constant "post" in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php:32
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 32
+
+2021-09-27T16:21:25+00:00 CRITICAL syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 39
+
+2021-09-27T16:21:43+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 57
+
+2021-09-27T16:22:29+00:00 CRITICAL Uncaught Error: Call to undefined function woo_image() in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 35
+
+2021-09-27T16:26:47+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1610): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php(36): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php on line 28
+
+2021-09-27T16:27:45+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1610): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php(50): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php on line 28
+
+2021-09-27T16:30:02+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1610): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php(50): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php on line 28
+
+2021-09-27T16:30:11+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1610): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php(50): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php on line 28
+
+2021-09-27T16:31:27+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1610): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php(36): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php on line 28
+
+2021-09-27T16:31:53+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1610): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php(36): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php on line 28
+
+2021-09-27T16:32:25+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1610): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php(36): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php on line 28
+
+2021-09-27T16:38:27+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1610): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php(37): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php on line 28
+
+2021-09-27T16:39:16+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1610): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php(51): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product\rating.php on line 28
+
+2021-09-27T17:15:53+00:00 CRITICAL Uncaught Error: Call to undefined function get_price() in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 40
+
+2021-09-27T17:17:00+00:00 CRITICAL Uncaught Error: Call to undefined function get_price() in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 40
+
+2021-09-27T17:17:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_price() in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 40
+
+2021-09-27T17:22:34+00:00 CRITICAL syntax error, unexpected token "if" in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 41
+
+2021-09-27T17:22:49+00:00 CRITICAL Uncaught Error: Call to undefined function get_price() in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 40
+
+2021-09-27T17:24:15+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 40
+
+2021-09-27T17:24:19+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 40
+
+2021-09-27T17:27:16+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on string in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\single-product.php on line 40
+

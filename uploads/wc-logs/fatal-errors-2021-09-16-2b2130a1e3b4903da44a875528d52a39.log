@@ -1,0 +1,136 @@
+2021-09-16T15:34:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "custom_woocommerce_catalog_orderby" not found or invalid function name in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1455): apply_filters('woocommerce_cat...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_catalog_ordering('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(646): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#7 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(348): WC_Shortcode_Products->get_content()
+#8 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(256): WC_Template_Loader::unsupported_theme_tax_archive_init()
+#9 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): WC_Template_Loader::unsupported_theme_init('')
+#10 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(13): do_action('template_redire...')
+#13 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php on line 303
+
+2021-09-16T15:54:22+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\archive-product.php on line 123
+
+2021-09-16T16:24:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "custom_woocommerce_catalog_orderby" not found or invalid function name in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1455): apply_filters('woocommerce_cat...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_catalog_ordering('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(987): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce.php(4): woocommerce_content()
+#7 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php on line 303
+
+2021-09-16T16:24:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "custom_woocommerce_catalog_orderby" not found or invalid function name in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1455): apply_filters('woocommerce_cat...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_catalog_ordering('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(987): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce.php(4): woocommerce_content()
+#7 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php on line 303
+
+2021-09-16T16:25:36+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "custom_woocommerce_catalog_orderby" not found or invalid function name in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1455): apply_filters('woocommerce_cat...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_catalog_ordering('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(987): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce.php(4): woocommerce_content()
+#7 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php on line 303
+
+2021-09-16T16:26:35+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "custom_woocommerce_catalog_orderby" not found or invalid function name in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1455): apply_filters('woocommerce_cat...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_catalog_ordering('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(987): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce.php(4): woocommerce_content()
+#7 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php on line 303
+
+2021-09-16T16:27:55+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "custom_woocommerce_catalog_orderby" not found or invalid function name in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1455): apply_filters('woocommerce_cat...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_catalog_ordering('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\archive-product.php(75): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php on line 303
+
+2021-09-16T16:28:18+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "custom_woocommerce_catalog_orderby" not found or invalid function name in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1455): apply_filters('woocommerce_cat...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_catalog_ordering('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\archive-product.php(75): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php on line 303
+
+2021-09-16T16:37:46+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "custom_woocommerce_catalog_orderby" not found or invalid function name in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\Cooken\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1455): apply_filters('woocommerce_cat...', Array)
+#2 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(303): woocommerce_catalog_ordering('')
+#3 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Cooken\wp-content\themes\CookenTheme\woocommerce\archive-product.php(57): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\Cooken\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Cooken\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php on line 303
+
+2021-09-16T17:07:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "mytheme_add_woocommerce_support" not found or invalid function name in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\Cooken\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\Cooken\wp-settings.php(556): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\Cooken\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Cooken\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Cooken\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Cooken\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\Cooken\wp-includes\class-wp-hook.php on line 303
+
